@@ -1,0 +1,35 @@
+@use './core/reset';
+
+/* Aquí van los estilos */
+
+*{margin: 0; padding: 0;}
+:root{background-color: rgb(50, 60, 60); color: rgb(10, 199, 161);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1em;
+    h1{letter-spacing: 1.75em ;}
+}
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+}
+    ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        list-style-type: none;
+    }
+        li{
+            text-align: center;
+            padding: 2%;
+            margin: 2%;
+            width: 20%;
+            border-radius: 3px;
+            border-style: outset;
+            img{width: 100%; margin-block: 5%;}
+            h3{text-transform: uppercase; color: rgb(255, 245, 196);}
+            p{ color: orange;}
+        }
