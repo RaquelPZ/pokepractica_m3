@@ -14,6 +14,17 @@ header{
     text-align: center;
     padding: 5%;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    input{
+        background-color: aquamarine;
+        text-align: center;
+        height: 25px;
+        border-radius: 3px;
+    }
+}
     ul{
         display: flex;
         flex-direction: row;
@@ -31,5 +42,5 @@ header{
             border-style: outset;
             img{width: 100%; margin-block: 5%;}
             h3{text-transform: uppercase; color: rgb(255, 245, 196);}
-            p{ color: orange;}
+            p{color: orange;}
         }

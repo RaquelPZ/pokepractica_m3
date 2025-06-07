@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import '../styles/App.scss';
 import data from '../data/pokemons.json';
-import List from './pokemons/Item';
+import List from './pokemons/List';
 
 function App() {
   //VARIABLE DE ESTADO
@@ -13,7 +13,10 @@ function App() {
         <h1>POKEADALAB</h1>
       </header>
       <main>
-        <List pokemons={pokemons}/>
+          <form action="">
+            <input type="text" name='filterName' id='filterName' placeholder='Filtra por nombre'/>
+          </form>
+          <List pokemons={pokemons} />
       </main>
     </div>
   );
