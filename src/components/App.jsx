@@ -6,6 +6,15 @@ import List from './pokemons/List';
 function App() {
   //VARIABLE DE ESTADO
   const [pokemons, setPokemons] = useState(data);
+  const [filterName, setFilterName] = useState('');
+
+  //EVENTO
+  const handleInputName = (ev) => {
+    setFilterName(ev.target.value);
+  }
+
+  const filteredPokemons =  pokemons.filter((eachPokemons) => 
+    eachPokemons.nombre.toLocaleLowerCase().includes(filterName.toLocaleLowerCase()));
 
   return (
     <div className='page'>
@@ -13,10 +22,17 @@ function App() {
         <h1>POKEADALAB</h1>
       </header>
       <main>
-          <form action="">
-            <input type="text" name='filterName' id='filterName' placeholder='Filtra por nombre'/>
+          <form onSubmit={ev=>ev.preventDefault()}>
+            <input
+              onInput={handleInputName}
+              type="text"
+              value={filterName}
+              name='filterName' 
+              id='filterName' 
+              placeholder='Filtra por nombre'
+            />
           </form>
-          <List pokemons={pokemons} />
+          <List pokemons={filteredPokemons} />
       </main>
     </div>
   );

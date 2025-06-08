@@ -21,7 +21,7 @@ main{
     input{
         background-color: aquamarine;
         text-align: center;
-        height: 25px;
+        height: 30px;
         border-radius: 3px;
     }
 }
@@ -34,6 +34,7 @@ main{
         list-style-type: none;
     }
         li{
+            background-color: rgb(27, 34, 34);
             text-align: center;
             padding: 2%;
             margin: 2%;
@@ -42,5 +43,5 @@ main{
             border-style: outset;
             img{width: 100%; margin-block: 5%;}
             h3{text-transform: uppercase; color: rgb(255, 245, 196);}
-            p{color: orange;}
+            p{color: aquamarine;}
         }
