@@ -3,7 +3,7 @@ function Item({eachPokemons}) {
         <>
         <h3> {eachPokemons.nombre} </h3>
               <img src={eachPokemons.imagen} alt="foto del pokemon" />
-              <p> {eachPokemons.tipo} </p>
+              <p> {eachPokemons.tipo} - {eachPokemons.tipo2} </p>
         </>
     );
 }

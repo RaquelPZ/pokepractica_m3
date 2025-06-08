@@ -1,283 +1,48 @@
 [
-  {
-    "id": 1,
-    "nombre": "Bulbasaur",
-    "tipo": ["Planta", "Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png"
-  },
-  {
-    "id": 2,
-    "nombre": "Ivysaur",
-    "tipo": ["Planta", "Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png"
-  },
-  {
-    "id": 3,
-    "nombre": "Venusaur",
-    "tipo": ["Planta", "Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png"
-  },
-  {
-    "id": 4,
-    "nombre": "Charmander",
-    "tipo": ["Fuego"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png"
-  },
-  {
-    "id": 5,
-    "nombre": "Charmeleon",
-    "tipo": ["Fuego"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png"
-  },
-  {
-    "id": 6,
-    "nombre": "Charizard",
-    "tipo": ["Fuego", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png"
-  },
-  {
-    "id": 7,
-    "nombre": "Squirtle",
-    "tipo": ["Agua"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png"
-  },
-  {
-    "id": 8,
-    "nombre": "Wartortle",
-    "tipo": ["Agua"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png"
-  },
-  {
-    "id": 9,
-    "nombre": "Blastoise",
-    "tipo": ["Agua"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png"
-  },
-  {
-    "id": 10,
-    "nombre": "Caterpie",
-    "tipo": ["Bicho"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png"
-  },
-  {
-    "id": 11,
-    "nombre": "Metapod",
-    "tipo": ["Bicho"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png"
-  },
-  {
-    "id": 12,
-    "nombre": "Butterfree",
-    "tipo": ["Bicho", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png"
-  },
-  {
-    "id": 13,
-    "nombre": "Weedle",
-    "tipo": ["Bicho", "Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png"
-  },
-  {
-    "id": 14,
-    "nombre": "Kakuna",
-    "tipo": ["Bicho", "Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png"
-  },
-  {
-    "id": 15,
-    "nombre": "Beedrill",
-    "tipo": ["Bicho", "Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png"
-  },
-  {
-    "id": 16,
-    "nombre": "Pidgey",
-    "tipo": ["Normal", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png"
-  },
-  {
-    "id": 17,
-    "nombre": "Pidgeotto",
-    "tipo": ["Normal", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png"
-  },
-  {
-    "id": 18,
-    "nombre": "Pidgeot",
-    "tipo": ["Normal", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png"
-  },
-  {
-    "id": 19,
-    "nombre": "Rattata",
-    "tipo": ["Normal"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png"
-  },
-  {
-    "id": 20,
-    "nombre": "Raticate",
-    "tipo": ["Normal"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png"
-  },
-  {
-    "id": 21,
-    "nombre": "Spearow",
-    "tipo": ["Normal", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png"
-  },
-  {
-    "id": 22,
-    "nombre": "Fearow",
-    "tipo": ["Normal", "Volador"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png"
-  },
-  {
-    "id": 23,
-    "nombre": "Ekans",
-    "tipo": ["Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png"
-  },
-  {
-    "id": 24,
-    "nombre": "Arbok",
-    "tipo": ["Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png"
-  },
-  {
-    "id": 25,
-    "nombre": "Pikachu",
-    "tipo": ["Eléctrico"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png"
-  },
-  {
-    "id": 26,
-    "nombre": "Raichu",
-    "tipo": ["Eléctrico"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png"
-  },
-  {
-    "id": 27,
-    "nombre": "Sandshrew",
-    "tipo": ["Tierra"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png"
-  },
-  {
-    "id": 28,
-    "nombre": "Sandslash",
-    "tipo": ["Tierra"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png"
-  },
-  {
-    "id": 29,
-    "nombre": "Nidoran♀",
-    "tipo": ["Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png"
-  },
-  {
-    "id": 30,
-    "nombre": "Nidorina",
-    "tipo": ["Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png"
-  },
-  {
-    "id": 31,
-    "nombre": "Nidoqueen",
-    "tipo": ["Veneno", "Tierra"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png"
-  },
-  {
-    "id": 32,
-    "nombre": "Nidoran♂",
-    "tipo": ["Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png"
-  },
-  {
-    "id": 33,
-    "nombre": "Nidorino",
-    "tipo": ["Veneno"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png"
-  },
-  {
-    "id": 34,
-    "nombre": "Nidoking",
-    "tipo": ["Veneno", "Tierra"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png"
-  },
-  {
-    "id": 35,
-    "nombre": "Clefairy",
-    "tipo": ["Hada"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png"
-  },
-  {
-    "id": 36,
-    "nombre": "Clefable",
-    "tipo": ["Hada"],
-    "generacion": 1,
-    "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png"
-  },
-  {
-  "id": 37,
-  "nombre": "Vulpix",
-  "tipo": ["Fuego"],
-  "generacion": 1,
-  "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png"
-},
-{
-  "id": 38,
-  "nombre": "Ninetales",
-  "tipo": ["Fuego"],
-  "generacion": 1,
-  "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png"
-},
-{  "id": 959,
-  "nombre": "Tinkaton",
-  "tipo": ["Hada", "Acero"],
-  "generacion": 9,
-  "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/959.png"
-},
-{
-  "id": 945,
-  "nombre": "Grafaiai",
-  "tipo": ["Veneno", "Normal"],
-  "generacion": 9,
-  "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/945.png"
-}
-]
+  { "id": 1, "nombre": "Bulbasaur", "tipo": "Planta", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" },
+  { "id": 2, "nombre": "Ivysaur", "tipo": "Planta", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" },
+  { "id": 3, "nombre": "Venusaur", "tipo": "Planta", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" },
+  { "id": 4, "nombre": "Charmander", "tipo": "Fuego", "tipo2": "Fuego", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" },
+  { "id": 5, "nombre": "Charmeleon", "tipo": "Fuego", "tipo2": "Fuego", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" },
+  { "id": 6, "nombre": "Charizard", "tipo": "Fuego", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" },
+  { "id": 7, "nombre": "Squirtle", "tipo": "Agua", "tipo2": "Agua", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" },
+  { "id": 8, "nombre": "Wartortle", "tipo": "Agua", "tipo2": "Agua", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png" },
+  { "id": 9, "nombre": "Blastoise", "tipo": "Agua", "tipo2": "Agua", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png" },
+  { "id": 10, "nombre": "Caterpie", "tipo": "Bicho", "tipo2": "Bicho", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png" },
+  { "id": 11, "nombre": "Metapod", "tipo": "Bicho", "tipo2": "Bicho", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/011.png" },
+  { "id": 12, "nombre": "Butterfree", "tipo": "Bicho", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/012.png" },
+  { "id": 13, "nombre": "Weedle", "tipo": "Bicho", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png" },
+  { "id": 14, "nombre": "Kakuna", "tipo": "Bicho", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/014.png" },
+  { "id": 15, "nombre": "Beedrill", "tipo": "Bicho", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/015.png" },
+  { "id": 16, "nombre": "Pidgey", "tipo": "Normal", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png" },
+  { "id": 17, "nombre": "Pidgeotto", "tipo": "Normal", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png" },
+  { "id": 18, "nombre": "Pidgeot", "tipo": "Normal", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/018.png" },
+  { "id": 19, "nombre": "Rattata", "tipo": "Normal", "tipo2": "Normal", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png" },
+  { "id": 20, "nombre": "Raticate", "tipo": "Normal", "tipo2": "Normal", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png" },
+  { "id": 21, "nombre": "Spearow", "tipo": "Normal", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png" },
+  { "id": 22, "nombre": "Fearow", "tipo": "Normal", "tipo2": "Volador", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png" },
+  { "id": 23, "nombre": "Ekans", "tipo": "Veneno", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png" },
+  { "id": 24, "nombre": "Arbok", "tipo": "Veneno", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png" },
+  { "id": 25, "nombre": "Pikachu", "tipo": "Eléctrico", "tipo2": "Eléctrico", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png" },
+  { "id": 26, "nombre": "Raichu", "tipo": "Eléctrico", "tipo2": "Eléctrico", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/026.png" },
+  { "id": 27, "nombre": "Sandshrew", "tipo": "Tierra", "tipo2": "Tierra", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png" },
+  { "id": 28, "nombre": "Sandslash", "tipo": "Tierra", "tipo2": "Tierra", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/028.png" },
+  { "id": 29, "nombre": "Nidoran♀", "tipo": "Veneno", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/029.png" },
+  { "id": 30, "nombre": "Nidorina", "tipo": "Veneno", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/030.png" },
+  { "id": 31, "nombre": "Nidoqueen", "tipo": "Veneno", "tipo2": "Tierra", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/031.png" },
+  { "id": 32, "nombre": "Nidoran♂", "tipo": "Veneno", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/032.png" },
+  { "id": 33, "nombre": "Nidorino", "tipo": "Veneno", "tipo2": "Veneno", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/033.png" },
+  { "id": 34, "nombre": "Nidoking", "tipo": "Veneno", "tipo2": "Tierra", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/034.png" },
+  { "id": 35, "nombre": "Clefairy", "tipo": "Hada", "tipo2": "Hada", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png" },
+  { "id": 36, "nombre": "Clefable", "tipo": "Hada", "tipo2": "Hada", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/036.png" },
+  { "id": 37, "nombre": "Vulpix", "tipo": "Fuego", "tipo2": "Fuego", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png" },
+  { "id": 38, "nombre": "Ninetales", "tipo": "Fuego", "tipo2": "Fuego", "generacion": 1, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/038.png" },
+  { "id": 944, "nombre": "Shroodle", "tipo": "Veneno", "tipo2": "Normal", "generacion": 9, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/944.png" },
+  { "id": 945, "nombre": "Grafaiai", "tipo": "Veneno", "tipo2": "Normal", "generacion": 9, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/945.png" },
+  { "id": 757, "nombre": "Salandit", "tipo": "Veneno", "tipo2": "Fuego", "generacion": 7, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/757.png" },
+  { "id": 758, "nombre": "Salazzle", "tipo": "Veneno", "tipo2": "Fuego", "generacion": 7, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/758.png" },
+  { "id": 957, "nombre": "Tinkatink", "tipo": "Hada", "tipo2": "Acero", "generacion": 9, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/957.png" },
+  { "id": 958, "nombre": "Tinkatuff", "tipo": "Hada", "tipo2": "Acero", "generacion": 9, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/958.png" },
+  { "id": 959, "nombre": "Tinkaton", "tipo": "Hada", "tipo2": "Acero", "generacion": 9, "imagen": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/959.png" }
 
- 
+]
